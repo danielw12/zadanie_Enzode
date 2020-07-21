@@ -1,0 +1,19 @@
+.rotating-img-box {
+     
+    button, img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    img {
+        border-radius: 50%;
+        border: 2px solid black;
+        transition: 2s;
+    }
+}
+
+.rotate-img {
+       transform: rotate(180deg);
+}
+
+
