@@ -1,4 +1,4 @@
 function rotating() {
-   var element = document.getElementById("rotatingImg");
+   let element = document.getElementById("rotatingImg");
    element.classList.toggle("rotate-img");
 }
